@@ -4,20 +4,22 @@
 Open your terminal and create the project using Option A:
 
 npx create-next-app@latest helpdesk-board
-Answer the prompts exactly:
 
-Prompt	Correct Answer
-Would you like to use TypeScript?	No
-Would you like to use ESLint?	Yes
-Would you like to use Tailwind CSS?	Yes
-Use src/ directory?	Yes
-Use App Router?	Yes
-Customize import alias?	No
+### Answer the prompts exactly:
+
+### Prompt	Correct Answer
+- Would you like to use TypeScript?	No
+- Would you like to use ESLint?	Yes
+- Would you like to use Tailwind CSS?	Yes
+- Use src/ directory?	Yes
+- Use App Router?	Yes
+- Customize import alias?	No
+
 Then:
 
-cd helpdesk-board
-npm install
-npm run dev
+- cd helpdesk-board
+- npm install
+- npm run dev
 
 ## File Structure:
 src/
