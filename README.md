@@ -40,19 +40,19 @@ src/
 ## Grading Rubric (100 Pts)
 
 - Project Setup & Structure	(15 Pts)	Next.js config and folders; app runs; README present
-Components + JSX + Keys	(20	Pts) Separate components, proper JSX, stable keys by id
-Props + Lifting State	(20 Pts)	Board holds lifted state; children receive props and callbacks
-State + Controlled Inputs	(15	Pts) useState used; filters & search are controlled; immutable updates
-Effects + Cleanup	(20 Pts)	Fetch on mount; interval live updates with proper cleanup
-UX + Conditional Rendering	(10 Pts)	Loading, error, empty states; disabled buttons where appropriate
+- Components + JSX + Keys	(20	Pts) Separate components, proper JSX, stable keys by id
+- Props + Lifting State	(20 Pts)	Board holds lifted state; children receive props and callbacks
+- State + Controlled Inputs	(15	Pts) useState used; filters & search are controlled; immutable updates
+- Effects + Cleanup	(20 Pts)	Fetch on mount; interval live updates with proper cleanup
+- UX + Conditional Rendering	(10 Pts)	Loading, error, empty states; disabled buttons where appropriate
 Total	100	—
 
-Partial credit guidance (common deductions):
+## Partial credit guidance (common deductions):
 
-Array index or Math.random() used for keys: −5 Pts
-Missing cleanup in live update effect: −10 Pts
-Direct state mutation: −5 to −10 Pts
-Filters not controlled: −8 Pts
-No API fetch or route misplaced: −20 Pts
-App doesn’t run: −15 Pts minimum 
+- Array index or Math.random() used for keys: −5 Pts
+- Missing cleanup in live update effect: −10 Pts
+= Direct state mutation: −5 to −10 Pts
+- Filters not controlled: −8 Pts
+- No API fetch or route misplaced: −20 Pts
+- App doesn’t run: −15 Pts minimum 
 
